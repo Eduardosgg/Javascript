@@ -1,25 +1,9 @@
-var obj ={
-    nome: "Eduardo",
-    idade:21,
-    profissao:"Programador",
-    estaTrabalhando:true,
+var arr = [1,2,3,4,5]; //obj => obj {}
 
-};
+console.log(arr)
 
-console.log(obj);
+console.log(arr[1]);
 
-console.log(typeof obj);
+arr[6] = 7
 
-console.log(obj.nome);
-console.log(obj.idade);
-console.log(obj.profissao);
-
-console.log("O meu nome é " + obj.nome);
-
-obj.nome ="Pedro";
-
-console.log(obj.nome);
-
-obj.graduacao = true;
-
-console.log(obj);
+console.log(arr);
